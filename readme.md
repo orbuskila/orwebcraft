@@ -30,4 +30,7 @@ We believe in the power of open collaboration! Whether you're a seasoned ecologi
  * Join the discussion: Share your expertise and ask questions in our project discussions.
 We're excited to see what we can accomplish together. For more information about our association, please visit our website.
 our website https://donations.orwebcraft.com 
-has man
+has published ecologists association on YouTube is connecting many ecologists association groups, our YouTube channel, including vito technology star recordings  Solar Walk 2 recorded at Forest and nature preserves
+
+https://donations.orwebcraft.com/archive 
+we have mast have android download archive of apps regarding astronomy and nature preserves 
