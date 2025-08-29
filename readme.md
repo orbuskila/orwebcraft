@@ -11,7 +11,7 @@ https://donations.orwebcraft.com/
 crypto currency donations
 https://donations.orwebcraft.com/crypto-currency-donations/
 
-Orwebcraft Ecologists Association - Code & Projects 🌳🌴🏞️🌊🪸🐦🕊️🦙🦇🐌🌌🌍🌎🌞
+Orwebcraft Ecologists Association - Code & Projects 🌳🌴🏞️🌊🪸🐦🕊️ 🌌🌍🌎🌞
 Welcome to the official GitHub repository for the Orwebcraft Ecologists Association! This is our collaborative space for sharing code, data, and projects that support our mission of advancing ecological research and conservation.
 About Us
 The Orwebcraft Ecologists Association (OEA) is a non-profit organization dedicated to using technology to address pressing ecological challenges. Our members, a diverse group of professional ecologists, data scientists, and developers, work together to build tools, analyze data, and create visualizations that shed light on environmental patterns and help inform conservation strategies.
