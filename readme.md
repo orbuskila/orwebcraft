@@ -25,6 +25,9 @@ Get Involved
 We believe in the power of open collaboration! Whether you're a seasoned ecologist or a coding enthusiast, there are many ways to contribute:
  * Explore our projects: Fork a repository, run the code, and see what we're working on.
  * Report bugs: Found an issue? Let us know by opening a new issue in the relevant repository.
+
+   we added web version Solar System Scope that allow to surf stars and the Sun from computers
+   https://donations.orwebcraft.com/solar-system-scope/
  * Suggest new features: Have an idea for a new tool or analysis? We'd love to hear it!
  * Contribute code: Submit a pull request with your improvements, new features, or bug fixes.
  * Join the discussion: Share your expertise and ask questions in our project discussions.
