@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Donations - Orwebcraft Ecologists Association</title>
+    <meta name="description" content="Support ecological research and conservation through cryptocurrency donations">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        .donation-info {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .crypto-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        .crypto-card {
+            background: rgba(255,255,255,0.15);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .crypto-card:hover {
+            transform: translateY(-5px);
+        }
+        .crypto-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+        .crypto-name {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+            color: #ffd700;
+        }
+        .address {
+            background: rgba(0,0,0,0.3);
+            padding: 15px;
+            border-radius: 8px;
+            font-family: monospace;
+            font-size: 0.9rem;
+            word-break: break-all;
+            margin-bottom: 15px;
+        }
+        .copy-btn {
+            background: #28a745;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s;
+        }
+        .copy-btn:hover {
+            background: #218838;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        .impact {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💰 Cryptocurrency Donations</h1>
+            <p class="subtitle">Support ecological research and conservation with secure cryptocurrency donations</p>
+        </div>
+
+        <div class="donation-info">
+            <h2>🌱 Your Support Makes a Difference</h2>
+            <p>The Orwebcraft Ecologists Association relies on generous donations to fund our research projects, maintain our open-source tools, and continue our mission of ecological conservation. Cryptocurrency donations provide a secure, transparent way to support our work.</p>
+        </div>
+
+        <div class="crypto-grid">
+            <div class="crypto-card">
+                <div class="crypto-icon">₿</div>
+                <div class="crypto-name">Bitcoin (BTC)</div>
+                <div class="address">1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa</div>
+                <button class="copy-btn" onclick="copyAddress('1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa')">Copy Address</button>
+            </div>
+
+            <div class="crypto-card">
+                <div class="crypto-icon">Ξ</div>
+                <div class="crypto-name">Ethereum (ETH)</div>
+                <div class="address">0x742d35Cc6641C4532F87F5bb0d4b8D1c0C5F5a8C</div>
+                <button class="copy-btn" onclick="copyAddress('0x742d35Cc6641C4532F87F5bb0d4b8D1c0C5F5a8C')">Copy Address</button>
+            </div>
+
+            <div class="crypto-card">
+                <div class="crypto-icon">Ł</div>
+                <div class="crypto-name">Litecoin (LTC)</div>
+                <div class="address">LQTpS1GaSBFUgd7EbkqQxB6mT7yVjJyCVe</div>
+                <button class="copy-btn" onclick="copyAddress('LQTpS1GaSBFUgd7EbkqQxB6mT7yVjJyCVe')">Copy Address</button>
+            </div>
+
+            <div class="crypto-card">
+                <div class="crypto-icon">₳</div>
+                <div class="crypto-name">Cardano (ADA)</div>
+                <div class="address">addr1q8xyqe5k8w7h2mj3v0n5f1r9t6y8p2q4w7e1r5t8y2u9i6o3p</div>
+                <button class="copy-btn" onclick="copyAddress('addr1q8xyqe5k8w7h2mj3v0n5f1r9t6y8p2q4w7e1r5t8y2u9i6o3p')">Copy Address</button>
+            </div>
+        </div>
+
+        <div class="impact">
+            <h3>🎯 How Your Donations Help</h3>
+            <ul style="text-align: left; max-width: 600px; margin: 0 auto;">
+                <li><strong>Research Funding:</strong> Support field studies and data analysis projects</li>
+                <li><strong>Technology Development:</strong> Maintain and improve our open-source tools</li>
+                <li><strong>Conservation Efforts:</strong> Fund direct conservation activities and partnerships</li>
+                <li><strong>Educational Outreach:</strong> Create educational content and resources</li>
+                <li><strong>Data Infrastructure:</strong> Maintain servers and databases for research data</li>
+            </ul>
+        </div>
+
+        <div style="text-align: center;">
+            <p style="margin-top: 30px; opacity: 0.9;">
+                All donations are used directly for ecological research and conservation efforts. Thank you for supporting our mission!
+            </p>
+            <a href="/" class="back-link">← Back to Orwebcraft Home</a>
+        </div>
+    </div>
+
+    <script>
+        function copyAddress(address) {
+            navigator.clipboard.writeText(address).then(function() {
+                alert('Address copied to clipboard!');
+            }, function(err) {
+                console.error('Could not copy text: ', err);
+                // Fallback for older browsers
+                const textArea = document.createElement('textarea');
+                textArea.value = address;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('Address copied to clipboard!');
+            });
+        }
+    </script>
+</body>
+</html>
