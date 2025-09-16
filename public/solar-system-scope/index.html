@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Scope - Orwebcraft Ecologists Association</title>
+    <meta name="description" content="Web version Solar System Scope that allows you to surf stars and the Sun from computers">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #000428 0%, #004e92 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.8;
+            margin-bottom: 30px;
+        }
+        .solar-system {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            margin: 0 auto 40px;
+            border-radius: 50%;
+            border: 2px solid rgba(255,255,255,0.3);
+        }
+        .sun {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 60px;
+            height: 60px;
+            background: radial-gradient(circle, #ffff00, #ff8c00);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 0 30px #ffff00;
+            animation: pulse 2s infinite;
+        }
+        .planet {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            animation: orbit 10s linear infinite;
+        }
+        .earth {
+            background: linear-gradient(45deg, #4a90e2, #228b22);
+            top: 50px;
+            left: 50%;
+            animation-duration: 8s;
+        }
+        .mars {
+            background: #cd5c5c;
+            top: 30px;
+            left: 50%;
+            animation-duration: 12s;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        .feature {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        .feature h3 {
+            margin-bottom: 15px;
+            color: #ffd700;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 15px 30px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+        @keyframes pulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+            50% { transform: translate(-50%, -50%) scale(1.1); }
+        }
+        @keyframes orbit {
+            0% { transform: rotate(0deg) translateX(150px) rotate(0deg); }
+            100% { transform: rotate(360deg) translateX(150px) rotate(-360deg); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌌 Solar System Scope</h1>
+            <p class="subtitle">Explore the cosmos from your computer - Interactive solar system visualization</p>
+        </div>
+
+        <div class="solar-system">
+            <div class="sun"></div>
+            <div class="planet earth"></div>
+            <div class="planet mars"></div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🌟 Interactive Exploration</h3>
+                <p>Navigate through our solar system with intuitive controls. Discover planets, moons, and celestial bodies in stunning detail.</p>
+            </div>
+            <div class="feature">
+                <h3>🔬 Educational Content</h3>
+                <p>Learn about astronomy and space science through interactive experiences designed for all ages and education levels.</p>
+            </div>
+            <div class="feature">
+                <h3>🌍 Real-Time Data</h3>
+                <p>Experience real astronomical data and current planetary positions in our scientifically accurate simulation.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <p style="margin-top: 40px; opacity: 0.8;">
+                This web version allows you to surf stars and the Sun from computers, providing an immersive educational experience for space enthusiasts and students alike.
+            </p>
+            <a href="/" class="back-link">← Back to Orwebcraft Home</a>
+        </div>
+    </div>
+</body>
+</html>
