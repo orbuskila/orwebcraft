@@ -42,3 +42,4 @@ add birds on earth from BirdNET live map
 https://donations.orwebcraft.com/birds-on-earth-birdnet-live-map/
 
 
+owned and raised by Or Buskila 
