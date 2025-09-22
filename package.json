@@ -1,0 +1,27 @@
+{
+  "name": "orwebcraft-website",
+  "version": "1.0.0",
+  "description": "Orwebcraft Ecologists Association website with Solar System Scope and other ecological tools",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecology",
+    "solar-system",
+    "conservation",
+    "birds",
+    "astronomy"
+  ],
+  "author": "Orwebcraft Ecologists Association",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

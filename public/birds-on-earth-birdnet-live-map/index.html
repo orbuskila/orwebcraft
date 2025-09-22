@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birds on Earth - BirdNET Live Map - Orwebcraft Ecologists Association</title>
+    <meta name="description" content="Interactive live map showing bird activity and species identification using BirdNET technology">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #4a90e2 0%, #228b22 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 30px;
+        }
+        .map-placeholder {
+            width: 100%;
+            height: 400px;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 40px;
+            backdrop-filter: blur(10px);
+            font-size: 1.2rem;
+            text-align: center;
+        }
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        .feature {
+            background: rgba(255,255,255,0.15);
+            padding: 25px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        .feature h3 {
+            margin-bottom: 15px;
+            color: #90ee90;
+        }
+        .bird-icons {
+            font-size: 2rem;
+            margin: 20px 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+        .back-link:hover {
+            background: rgba(255,255,255,0.3);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🐦 Birds on Earth - BirdNET Live Map</h1>
+            <p class="subtitle">Real-time bird species identification and tracking using advanced AI technology</p>
+        </div>
+
+        <div class="map-placeholder">
+            <div>
+                <div class="bird-icons">🐦 🕊️ 🦅 🦉 🐧</div>
+                <p>Interactive BirdNET Live Map</p>
+                <p style="font-size: 0.9rem; opacity: 0.8;">(Map integration coming soon)</p>
+            </div>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>🎵 Real-Time Bird Audio</h3>
+                <p>Listen to live bird calls and songs from locations around the world, processed through BirdNET's advanced AI recognition system.</p>
+            </div>
+            <div class="feature">
+                <h3>🔍 Species Identification</h3>
+                <p>Automatically identify bird species from their vocalizations using state-of-the-art machine learning algorithms.</p>
+            </div>
+            <div class="feature">
+                <h3>🌍 Global Coverage</h3>
+                <p>Explore bird activity from nature preserves, forests, and protected areas across different continents and ecosystems.</p>
+            </div>
+            <div class="feature">
+                <h3>📊 Conservation Data</h3>
+                <p>Access valuable data for ornithological research and bird conservation efforts in partnership with ecological associations.</p>
+            </div>
+        </div>
+
+        <div style="text-align: center;">
+            <p style="margin-top: 30px; opacity: 0.9;">
+                This application connects bird enthusiasts and researchers with live bird activity data, supporting our mission of ecological conservation and education.
+            </p>
+            <a href="/" class="back-link">← Back to Orwebcraft Home</a>
+        </div>
+    </div>
+</body>
+</html>
