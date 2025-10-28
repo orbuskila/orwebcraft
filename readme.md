@@ -21,6 +21,31 @@ Here you'll find a variety of open-source projects, including:
  * Web Applications: Interactive tools for data visualization and public outreach, making complex ecological information accessible to everyone.
  * Modeling Frameworks: Reusable code for simulating ecological processes and predicting environmental changes.
  * Data Repositories: Curated and cleaned datasets that are freely available for research and educational purposes.
+
+## 🤖 AI-Powered Development with Google AI Studio
+
+We integrate Google AI Studio to enhance our development workflow and research capabilities:
+
+**What is Google AI Studio?**
+Google AI Studio is a browser-based IDE for prototyping with generative AI models. It allows us to rapidly experiment with prompts, build AI-powered applications, and integrate advanced AI capabilities into our ecological research tools.
+
+**How We Use It:**
+ * **Code Assistance**: Leveraging Gemini Code Assist for intelligent code reviews, suggestions, and automated documentation
+ * **Data Analysis**: Using AI models to help analyze complex ecological datasets and identify patterns
+ * **Prototype Development**: Rapidly building and testing AI-powered tools for species identification, climate modeling, and conservation planning
+ * **Research Support**: Generating insights and summaries from large volumes of ecological literature and research data
+
+**Getting Started with Google AI Studio:**
+ * Visit [Google AI Studio](https://aistudio.google.com/) to start building
+ * Check out our [GitHub Integration Guide](https://developers.google.com/gemini-code-assist/docs/set-up-code-assist-github) for connecting AI Studio with our repositories
+ * Explore Gemini models for natural language processing, code generation, and multimodal analysis
+
+**Benefits for Our Organization:**
+ * Accelerate development of ecological analysis tools
+ * Improve code quality through AI-assisted reviews
+ * Enable rapid prototyping of new conservation technologies
+ * Enhance collaboration between ecologists and developers through AI-powered documentation
+
 Get Involved
 We believe in the power of open collaboration! Whether you're a seasoned ecologist or a coding enthusiast, there are many ways to contribute:
  * Explore our projects: Fork a repository, run the code, and see what we're working on.
